@@ -8,6 +8,6 @@ import javax.persistence.Id;
 public class Test3Entity {
     @Id @GeneratedValue
     private Long id;
-    private String test3name;
+    private String update;
     private Integer num;
 }
