@@ -5,10 +5,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Test3Entity {
-    @Id @GeneratedValue
+public class Branch1Entity {
+    @Id
+    @GeneratedValue
     private Long id;
-    private String update;
-    private Integer num;
-    private Integer number2;
+    private String username;
+    private String address;
+    private Integer number;
 }
