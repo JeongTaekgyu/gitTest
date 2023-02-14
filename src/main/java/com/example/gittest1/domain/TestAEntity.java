@@ -5,9 +5,10 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
-public class Test3Entity {
-    @Id @GeneratedValue
+public class TestAEntity {
+    @Id
+    @GeneratedValue
     private Long id;
-    private String update;
+    private String name;
     private Integer num;
 }

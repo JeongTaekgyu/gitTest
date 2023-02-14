@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RestController;
 import javax.persistence.Entity;
 
 @RestController
-@RequiredArgsConstructor
 public class Branch2Controller {
+    // 추가
 }
