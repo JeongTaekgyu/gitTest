@@ -6,4 +6,5 @@ import lombok.Getter;
 public class branch1ReqDto {
     private String name;
     private Integer number;
+    private Integer num2;
 }
