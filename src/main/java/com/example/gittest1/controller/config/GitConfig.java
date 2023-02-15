@@ -10,4 +10,5 @@ public class GitConfig {
     // git config --list 에서 user.name과 user.email을 보면 변경이 되지 않았다..
 
     private String username;
+    private String email;
 }
